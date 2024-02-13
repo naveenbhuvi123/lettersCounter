@@ -1,0 +1,133 @@
+.app-container {
+  background-image: linear-gradient(#1d976c, #93f9b9);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+.img-1 {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .app-container {
+    padding-right: 40px;
+  }
+  .para {
+    width: min-130px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #219a6f;
+    font-size: 15px;
+    border-width: 0px;
+    border-radius: 10px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .img-1 {
+    display: flex;
+    width: 60vw;
+  }
+  .input-text {
+    width: 100vw;
+    font-size: 10px;
+    color: #1d976c;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: #ffffff;
+    border-width: 1px;
+    height: 25px;
+    border-style: solid;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .img {
+    display: none;
+    width: 2px;
+    margin-left: 0px;
+  }
+  .calculator {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+  }
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-heading {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: roboto;
+  color: #ffffffff;
+  flex-wrap: wrap;
+}
+.label {
+  font-size: 10px;
+  font-family: roboto;
+  color: #ffffffff;
+}
+.input-text {
+  width: 20vw;
+  font-size: 10px;
+  color: #1d976c;
+  background-color: transparent;
+  border-radius: 5px;
+  border-color: #ffffff;
+  border-width: 1px;
+  height: 25px;
+  border-style: solid;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.para {
+  width: min-10;
+  height: 40px;
+  background-color: #ffffff;
+  color: #219a6f;
+  font-size: 15px;
+  border-width: 0px;
+  border-radius: 10px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.img {
+  width: 80%;
+  margin-left: 40px;
+}
